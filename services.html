@@ -1,0 +1,159 @@
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Услуги — NEFORMAT</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .services-container {
+      padding: 60px 5%;
+      text-align: center;
+    }
+
+    .services-container h1 {
+      font-size: 36px;
+      color: #2e463e;
+      margin-bottom: 40px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      justify-items: center;
+    }
+
+    .service-button {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 16px;
+      padding: 20px 16px;
+      width: 100%;
+      max-width: 280px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      color: #2e463e;
+    }
+
+    .service-button:hover {
+      background-color: #2e463e;
+      color: #ffffff;
+      transform: translateY(-5px);
+    }
+
+    .service-button img {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .service-button:hover img {
+      transform: scale(1.1);
+    }
+
+    .service-label {
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .service-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img src="logo.png" alt="Логотип">
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="services.html">Услуги</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </header>
+
+    <main class="services-container">
+      <h1>Наши услуги</h1>
+      <div class="service-grid">
+        <a href="vedushiy.html" class="service-button">
+          <img src="images/vedushiy.png" alt="Ведущий" />
+          <span class="service-label">Ведущий</span>
+        </a>
+        <a href="photo.html" class="service-button">
+          <img src="images/photo.png" alt="Фото и видео" />
+          <span class="service-label">Фото и видеосъёмка</span>
+        </a>
+        <a href="tech.html" class="service-button">
+          <img src="images/tech.png" alt="Техника" />
+          <span class="service-label">Техническое оснащение</span>
+        </a>
+        <a href="tent.html" class="service-button">
+          <img src="images/tent.png" alt="Шатры" />
+          <span class="service-label">Аренда шатров</span>
+        </a>
+        <a href="show.html" class="service-button">
+          <img src="images/show.png" alt="Шоу" />
+          <span class="service-label">Шоу программа</span>
+        </a>
+        <a href="games.html" class="service-button">
+          <img src="images/game.png" alt="Игры" />
+          <span class="service-label">Тематические игры</span>
+        </a>
+        <a href="effects.html" class="service-button">
+          <img src="images/effects.png" alt="Эффекты" />
+          <span class="service-label">Спецэффекты</span>
+        </a>
+        <a href="decor.html" class="service-button">
+          <img src="images/decor.png" alt="Декор" />
+          <span class="service-label">Декор и оформление</span>
+        </a>
+        <a href="registration.html" class="service-button">
+          <img src="images/ring.png" alt="Регистрация" />
+          <span class="service-label">Регистрация брака</span>
+        </a>
+        <a href="catering.html" class="service-button">
+          <img src="images/food.png" alt="Кейтеринг" />
+          <span class="service-label">Кейтеринг</span>
+        </a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <h3>NEFORMAT<br>community</h3>
+          <p>Создаем праздник</p>
+        </div>
+        <div class="footer-center">
+          <p>&copy; 2025 Виталий Феклистов. Все права защищены.</p>
+        </div>
+        <div class="footer-right">
+      <a href="https://www.instagram.com/nf_kitchen.kz/?igsh=MWtsMW9rb3ExdDZ1ZQ%3D%3D#">Inst Кейтеринг</a>
+      <a href="https://www.instagram.com/speceffecty_uka_neformat/?igsh=MW0wZTF5a213cnR0aw%3D%3D#">Inst Спецэффекты</a>
+      <a href="https://www.instagram.com/v_decor_neformat/?igsh=ODFjbmhqemVnM2Fq#">Inst Декор</a>
+      <a href="https://www.instagram.com/registracia_vko/">Inst Регистрация</a>
+      <a href="https://www.instagram.com/neformat_community/?igsh=MWJnMTN4OGU3cXFzbQ%3D%3D#">Inst Neformat</a>
+      <a href="https://www.instagram.com/feklistov_show/">Instagram</a>
+      <a href="https://api.whatsapp.com/send?phone=+77777997709">WhatsApp</a>
+    </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
